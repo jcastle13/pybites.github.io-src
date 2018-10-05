@@ -14,7 +14,12 @@ We're open source right? ;)
 ## Pybites install guide
 
 	# we have a src, output and theme (Flex) repo, use --recursive to get all
+	# If using SSH then run the following command:
+	$ git clone --recursive git@github.com:pybites/pybites.github.io-src pybites
+	# If using HTTPS then run the following command:
 	$ git clone --recursive https://github.com/pybites/pybites.github.io-src pybites
+	
+	# Then change into the directory
     $ cd pybites
 
 	# set up env and install dependencies
